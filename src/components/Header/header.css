@@ -1,0 +1,19 @@
+header {
+  height: 80px;
+  background-color: #232931;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  color: #00ADB5;
+  font-size: 20px;
+  margin-right: 32px;
+  cursor: pointer;
+}
