@@ -1,0 +1,36 @@
+#about {
+  background-color: #00ADB5;
+  display: flex;
+  margin: auto;
+  padding: 50px 0;
+  text-align: left;    
+  width: 80%;
+}
+
+.intro {
+  width: 44%;
+  border-right: 1px solid #EEE;
+  padding: 0 15px 0 25px;
+}
+
+.credentials {
+  width: 55%;
+}
+
+.skills {
+  border-bottom: 1px solid #EEE;
+  margin: 0 12px;
+  padding: 0 20px 10px 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #222831;
+}
+
+p {
+  color: #222831;
+  line-height: 36px;
+}
+
