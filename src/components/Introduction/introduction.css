@@ -11,8 +11,9 @@
 }
 
 .self-portrait {
-  background: url("./avatar.JPG") no-repeat;
+  background: url("./avatar.JPG") no-repeat fixed;
   background-size: contain;
+  background-position: 95px;
   height: 90vh;
   border: 1px solid blue;
   opacity: 0.7;

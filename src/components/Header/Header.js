@@ -5,10 +5,11 @@ const Header = () => {
   return (
     <div>
       <header>
+      <img className="logo" src="./jigsaw.png"/>
         <ul>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li><a href="#about">About</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a href="#contact" >Contact</a></li>
         </ul>
       </header>
     </div>
