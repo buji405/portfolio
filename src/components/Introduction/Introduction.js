@@ -11,6 +11,7 @@ const Introduction = () => {
           <span>Builder of Modular Components</span>
           <span>Responsive Advocate</span>
           <span>Yes to Semicolons</span>
+          <span>Front-End Developer</span>
         </div>
       </article>
     </section>

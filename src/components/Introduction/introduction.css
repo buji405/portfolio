@@ -31,6 +31,12 @@ h1 {
 .animation-words span {
   font-weight: bold;
   opacity: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 .animation-words span:nth-child(1) {
@@ -67,10 +73,18 @@ h1 {
     white-space: nowrap;
 }
 
+.animation-words span:nth-child(5) {
+    animation: 8.7s centerFadeIn 10s forwards;
+    font-size: 50px;
+    right: 8%;
+    position: absolute;
+    top: 50%;
+}
+
 @keyframes topFadeIn {
   0% {
     position: absolute;
-    top: -3rem;
+    top: 0rem;
     opacity: 0;
   }
 
@@ -105,7 +119,7 @@ h1 {
 @keyframes bottomFadeIn {
   0% {
       position: absolute;
-      bottom: -3rem;
+      bottom: 0rem;
       opacity: 0;
     }
 
@@ -124,7 +138,7 @@ h1 {
 @keyframes bottomVerticalFadeIn {
   0% {
    position: absolute;
-   bottom : -15rem;
+   bottom : -4rem;
    opacity: 0;
  }
 
@@ -136,6 +150,16 @@ h1 {
 
  100% {
    opacity: 0;
-   bottom: -15rem;
+   bottom: -4rem;
  }
+}
+
+@keyframes centerFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
