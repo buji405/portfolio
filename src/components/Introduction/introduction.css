@@ -1,13 +1,13 @@
 #introduction {
   background: #FFF;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      margin: auto;
-      min-height: 100%;
-      position: relative;
-      width: 80%;
-      border: 1px solid green;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  min-height: 100%;
+  position: relative;
+  width: 80%;
+  border: 1px solid green;
 }
 
 .self-portrait {
@@ -17,5 +17,125 @@
   height: 90vh;
   border: 1px solid blue;
   opacity: 0.7;
-  -webkit-filter: grayscale(1);  
+  -webkit-filter: grayscale(1);
+}
+
+h1 {
+  color: #222831;
+  /*font-family: "Lora", serif;*/
+  font-weight: bold;
+  font-size: 50px;
+  display: none;
+}
+
+.animation-words span {
+  font-weight: bold;
+  opacity: 0;
+}
+
+.animation-words span:nth-child(1) {
+  animation: 3s topFadeIn ease-out;
+  font-size: 50px;
+  right: 3%;
+  position: absolute;
+  top: 250px;
+}
+
+.animation-words span:nth-child(2) {
+    animation: 3s rightFadeIn 1.5s ease-in-out;
+    font-size: 40px;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+  }
+
+  .animation-words span:nth-child(3) {
+    animation: 4s bottomFadeIn 3s ease-in-out;
+    font-size: 65px;
+    bottom: 25%;
+    right: 5%;
+    position: absolute;
+}
+
+.animation-words span:nth-child(4) {
+    animation: 5s bottomVerticalFadeIn 6s ease-in-out;
+    font-size: 40px;
+    position: absolute;
+    right: -3%;
+    bottom: 0;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+@keyframes topFadeIn {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeIn {
+  0% {
+      position: absolute;
+      right: -3rem;
+      opacity: 0;
+    }
+
+    75% {
+      position: absolute;
+      right: 4rem;
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+      right: 4rem;
+    }
+}
+
+@keyframes bottomFadeIn {
+  0% {
+      position: absolute;
+      bottom: -3rem;
+      opacity: 0;
+    }
+
+    75% {
+      position: absolute;
+      bottom: 4rem;
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+      bottom: 4rem;
+    }
+}
+
+@keyframes bottomVerticalFadeIn {
+  0% {
+   position: absolute;
+   bottom : -15rem;
+   opacity: 0;
+ }
+
+ 75% {
+   position: absolute;
+   bottom: 15rem;
+   opacity: 1;
+ }
+
+ 100% {
+   opacity: 0;
+   bottom: -15rem;
+ }
 }

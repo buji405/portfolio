@@ -4,12 +4,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;  
 }
 
 ul {
   list-style: none;
   display: flex;
-  width: 30%;
 }
 
 a {
