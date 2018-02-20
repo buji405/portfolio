@@ -1,0 +1,20 @@
+#introduction {
+  background: #FFF;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: auto;
+      min-height: 100%;
+      position: relative;
+      width: 80%;
+      border: 1px solid green;
+}
+
+.self-portrait {
+  background: url("./avatar.JPG") no-repeat;
+  background-size: contain;
+  height: 90vh;
+  border: 1px solid blue;
+  opacity: 0.7;
+  -webkit-filter: grayscale(1);  
+}
