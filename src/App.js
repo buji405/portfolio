@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import Introduction from './components/Introduction/Introduction';
+import ComplimentaryInfo from './components/Compliments/Compliments';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Header />
         <Introduction />
         <article className="container-break"></article>
+        <ComplimentaryInfo />
         <About />
       </div>
     );

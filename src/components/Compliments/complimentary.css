@@ -1,0 +1,12 @@
+.complimentary-info {
+  min-height: 600px;
+  background: url("./fadeflower.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  margin: auto;
+}
+
+.container {
+  position: relative;
+}

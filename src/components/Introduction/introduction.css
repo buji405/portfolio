@@ -7,7 +7,6 @@
   min-height: 100%;
   position: relative;
   width: 80%;
-  border: 1px solid green;
 }
 
 .self-portrait {
@@ -15,14 +14,12 @@
   background-size: contain;
   background-position: 95px;
   height: 90vh;
-  border: 1px solid blue;
   opacity: 0.7;
   -webkit-filter: grayscale(1);
 }
 
 h1 {
   color: #222831;
-  /*font-family: "Lora", serif;*/
   font-weight: bold;
   font-size: 50px;
   display: none;
